@@ -1,9 +1,15 @@
+import styled from 'styled-components';
+
+const Title = styled.h1`
+  color: red;
+`;
+
 type HeaderProps = { title: string };
 
 export const Header = ({ title }: HeaderProps) => {
   return (
     <div>
-      <h1>{title}</h1>
+      <Title>{title}</Title>
     </div>
   );
 };
