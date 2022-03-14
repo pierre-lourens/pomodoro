@@ -1,7 +1,10 @@
+import { Header } from './components/header';
+import { SITE_TITLE } from './constants';
+
 function App() {
   return (
     <div className='App'>
-      <h1>Pomodoro Timer</h1>
+      <Header title={SITE_TITLE} />
     </div>
   );
 }
